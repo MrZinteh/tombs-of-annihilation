@@ -42,7 +42,8 @@ playerMapElement.addEventListener('click', function (event) {
         toggle = true;
     }
     else {
-        fadeOut(playerMapElement, 3000);
+        fadeIn(playerMapElement, 3000);
+        toggle = false;
     }
 });
 
@@ -52,7 +53,8 @@ dmMapElement.addEventListener('click', function (event) {
         toggle = true;
     }
     else {
-        fadeOut(playerMapElement, 3000);
+        fadeIn(playerMapElement, 3000);
+        toggle = false;
     }
 });
 
