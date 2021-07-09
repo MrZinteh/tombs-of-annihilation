@@ -44,13 +44,31 @@ header div {
 .grid #map {
     grid-row: 2 / 9;
     grid-column: 3 / 6;
+    /* justify-content: stretch; */
 }
 
-.grid #map img{
+.grid #mapTwo {
+    grid-row: 2 / 9;
+    grid-column: 3 / 6;
+    /* justify-content: stretch; */
+}
+
+#chult-map-player{
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     padding: 3px;
+    z-index: -1;
+    opacity: 0;
+}
+
+#chult-map-dm {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 3px;
+    opacity: 100;
+    z-index: 1;
 }
 
 table a {
