@@ -43,6 +43,11 @@ header div {
     grid-column: 3 / 6;
 }
 
+.grid #map {
+    height: 100%;
+    width: 100%;
+}
+
 .logo {
     text-indent: -9999px;
     background-image: url(https://www.dndbeyond.com/content/1-0-1592-0/skins/waterdeep/images/dnd-beyond-logo.svg);
