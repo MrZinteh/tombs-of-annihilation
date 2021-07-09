@@ -46,6 +46,16 @@ playerMapElement.addEventListener('click', function (event) {
     }
 });
 
+dmMapElement.addEventListener('click', function (event) {
+    if(toggle === false) {
+        fadeOut(playerMapElement, 3000);
+        toggle = true;
+    }
+    else {
+        fadeOut(playerMapElement, 3000);
+    }
+});
+
 // playerMapElement.addEventListener('click', function (event) {
 //     if(dmMapElement.style.opacity === 0) {
 //         for(let i=0;i<=100;i++) {
