@@ -59,7 +59,7 @@ header div {
     object-fit: contain;
     padding: 3px;
     z-index: -1;
-    opacity: 0;
+    opacity: 1;
 }
 
 #chult-map-dm {
@@ -67,7 +67,7 @@ header div {
     max-height: 100%;
     object-fit: contain;
     padding: 3px;
-    opacity: 100;
+    opacity: 0;
     z-index: 1;
 }
 
