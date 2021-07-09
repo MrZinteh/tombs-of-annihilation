@@ -53,6 +53,10 @@ header div {
     padding: 3px;
 }
 
+table a {
+    color: #704cd9;
+}
+
 .logo {
     text-indent: -9999px;
     background-image: url(https://www.dndbeyond.com/content/1-0-1592-0/skins/waterdeep/images/dnd-beyond-logo.svg);
